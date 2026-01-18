@@ -1,31 +1,38 @@
 class Colors:
     """
-    Color palette updated for 'MatchViz Pro' design (Midnight Blue / Cyan).
+    Color palette updated for 'Stratos' Design System.
+    Reference: Deep Navy & Electric Teal.
     """
-    BACKGROUND = '#0a0e14' # Deep Midnight Blue/Black
+    # Core Surface / Background
+    BACKGROUND = '#0A1628' # Deep Navy
     
-    # Pitch Colors (Dark Slate/Green)
-    PITCH_COLOR = '#111b21' # Very dark slate
-    LINE_COLOR = '#2a3b45' # Muted cyan-grey
+    # Pitch Colors
+    PITCH_COLOR = '#0F2038' # Slightly lighter navy for pitch to differentiate
+    LINE_COLOR = '#1E3A5F' # Subtle Blue-Grey lines
     
-    TEXT_COLOR = '#ffffff'
+    TEXT_COLOR = '#FFFFFF'
+    
+    # Stratos Palette
+    PRIMARY = '#00D9FF'   # Electric Teal (Primary Accent)
+    SECONDARY = '#2D5B15' # Grass Green (Pitch Positive / Field)
+    TERTIARY = '#0A1628'  # Core Surface
     
     # Player Colors
-    # Home: Cyan/Electric Blue (Man City Style)
-    HOME_TEAM = '#00E5FF' 
+    HOME_TEAM = '#00D9FF' # Electric Teal
     HOME_TEXT = '#000000'
     
-    # Away: White/Grey (Neutral/Away) or muted
-    AWAY_TEAM = '#ECEFF1' 
+    AWAY_TEAM = '#FFFFFF' # White (Stark contrast)
     AWAY_TEXT = '#000000'
     
-    BALL = '#FFFFFF'
+    BALL = '#FBC02D' # Yellow for visibility inc contrast
     
-    # UI Elements
-    PANEL_BG = '#161b22' # Slightly lighter blue-grey
-    BORDER = '#2a3b45'
-    HIGHLIGHT = '#00E5FF' # Cyan Highlight
-    ACCENT_RED = '#FF1744' # For errors/opponents
+    # UI Elements (ProScout/Stratos)
+    PANEL_BG = '#0A1628' # Deep Navy
+    SIDEBAR_BG = '#060D17' # Darker Navy for Sidebar
+    BORDER = '#1E3A5F'
+    HIGHLIGHT = '#00D9FF' 
+    ACCENT_RED = '#FF1744'
     
-    # Overlay
-    OVERLAY_BG = '#1c232b' # Card background
+    # Charts / Graphs
+    CHART_BAR = '#00D9FF'
+    CHART_BG = '#12233D' # Bento Box BG
