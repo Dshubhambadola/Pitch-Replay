@@ -40,10 +40,10 @@ class EventVisualizer:
         # but let's assume Teal for now or check if we have 'pass_outcome')
         # Ideally we check event['pass_outcome'].NaN means complete.
         
-        color = Colors.NEON_TEAL
+        color = Colors.HIGHLIGHT # Cyan
         if 'pass_outcome' in event and isinstance(event['pass_outcome'], str):
-             # If there's an outcome string (Incomplete, Out, etc), make it red/grey
-             color = Colors.HOT_PINK
+             # Failures in Red
+             color = Colors.ACCENT_RED
              
         arrow = patches.FancyArrowPatch(
             (start[0], start[1]), 
@@ -71,7 +71,7 @@ class EventVisualizer:
             loc[0], loc[1],
             s=300,
             marker='*',
-            color=Colors.HOT_PINK,
+            color=Colors.HIGHLIGHT,
             edgecolors='white',
             linewidth=2,
             zorder=5 # On top of everything

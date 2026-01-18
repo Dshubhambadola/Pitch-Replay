@@ -1,22 +1,31 @@
 class Colors:
     """
-    Color palette for the Football Race Replay application.
-    Based on 'Tactical Pro' dark aesthetic.
+    Color palette updated for 'MatchViz Pro' design (Midnight Blue / Cyan).
     """
-    BACKGROUND = '#151515'
-    PITCH_COLOR = '#1e1e1e'
-    LINE_COLOR = '#444444'
+    BACKGROUND = '#0a0e14' # Deep Midnight Blue/Black
+    
+    # Pitch Colors (Dark Slate/Green)
+    PITCH_COLOR = '#111b21' # Very dark slate
+    LINE_COLOR = '#2a3b45' # Muted cyan-grey
+    
     TEXT_COLOR = '#ffffff'
     
-    # Accents
-    NEON_TEAL = '#00FFC2'
-    HOT_PINK = '#FF0055'  # For opposition or highlights
+    # Player Colors
+    # Home: Cyan/Electric Blue (Man City Style)
+    HOME_TEAM = '#00E5FF' 
+    HOME_TEXT = '#000000'
+    
+    # Away: White/Grey (Neutral/Away) or muted
+    AWAY_TEAM = '#ECEFF1' 
+    AWAY_TEXT = '#000000'
+    
+    BALL = '#FFFFFF'
     
     # UI Elements
-    PANEL_BG = '#222222'
-    BORDER = '#333333'
+    PANEL_BG = '#161b22' # Slightly lighter blue-grey
+    BORDER = '#2a3b45'
+    HIGHLIGHT = '#00E5FF' # Cyan Highlight
+    ACCENT_RED = '#FF1744' # For errors/opponents
     
-    # Player Colors
-    HOME_TEAM = NEON_TEAL
-    AWAY_TEAM = HOT_PINK
-    BALL = '#FFFFFF'
+    # Overlay
+    OVERLAY_BG = '#1c232b' # Card background
